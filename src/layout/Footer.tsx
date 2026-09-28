@@ -73,7 +73,7 @@ export function Footer() {
                 <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8">
 
                     {/* LEFT SECTION: Logo & Newsletter */}
-                    <div className="flex flex-col space-y-5 lg:col-span-5 2xl:col-span-5">
+                    <div className="flex flex-col items-center md:items-start space-y-5 lg:col-span-5 2xl:col-span-5">
                         <Link href="/" className="relative h-16 w-50 2xl:w-80 flex items-center gap-2.5 transition-opacity hover:opacity-90">
                             <Image
                                 src="/brandLogoBlack.png"
@@ -84,7 +84,7 @@ export function Footer() {
                         </Link>
 
                         {/* Subtitle */}
-                        <p className="text-xs text-zinc-500 md:text-sm lg:text-base mb-8">
+                        <p className="text-xs text-zinc-500 md:text-sm lg:text-base mb-8 text-center md:text-left">
                             Stay Up to date with our latest features and releases by joining our newsletter.
                         </p>
 
@@ -110,7 +110,7 @@ export function Footer() {
                         </form>
 
                         {/* Disclaimer */}
-                        <p className="text-xs text-zinc-500 md:text-sm lg:text-base">
+                        <p className="text-xs text-zinc-500 md:text-sm lg:text-base mt-2 text-center md:text-left">
                             By subscribing, you agree to our{" "}
                             <Link href="/" className="underline underline-offset-4 hover:text-[#a3e635]">
                                 Privacy Policy
@@ -120,7 +120,7 @@ export function Footer() {
                     </div>
 
                     {/* RIGHT SECTION: Navigation Columns */}
-                    <div className="grid grid-cols-1 gap-8 sm:grid-cols-3 lg:col-span-7 lg:pl-12 2xl:col-span-7">
+                    <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 lg:col-span-7 lg:pl-12 2xl:col-span-7">
                         {footerColumns.map((col, idx) => (
                             <div key={idx} className="flex flex-col space-y-4 md:space-y-6">
                                 {col.links.map((link) => (
@@ -140,7 +140,7 @@ export function Footer() {
 
                 {/* BOTTOM SECTION: COPYRIGHT & LEGAL */}
                 <div className="mt-12 border-t border-zinc-200 pt-8 md:mt-16 lg:mt-20">
-                    <div className="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-center">
+                    <div className="flex flex-col items-center md:items-start justify-between gap-4 sm:flex-row sm:items-center">
                         {/* Copyright */}
                         <p className="text-xs text-zinc-500 md:text-sm lg:text-base 2xl:text-lg">
                             @ 2023 ByteSpace. All rights reserved.
