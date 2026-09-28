@@ -70,7 +70,7 @@ export function Footer() {
         <footer className="w-full border-t border-zinc-200 text-black">
             <div className="container mx-auto max-w-7xl px-4 py-12 sm:px-6 md:py-16 lg:px-8 lg:py-20 2xl:max-w-[1536px]">
                 {/* TOP SECTION: NEWSLETTER + NAV COLUMNS */}
-                <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8">
+                <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-8 items-end">
 
                     {/* LEFT SECTION: Logo & Newsletter */}
                     <div className="flex flex-col items-center md:items-start space-y-5 lg:col-span-5 2xl:col-span-5">
