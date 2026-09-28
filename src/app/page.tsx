@@ -1,6 +1,9 @@
+import { TopBar } from "@/layout/TopBar";
+
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+    <div className="bg-white text-black min-h-screen">
+      <TopBar/>
       hello
     </div>
   );
