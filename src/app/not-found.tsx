@@ -12,14 +12,14 @@ export default function NotFound() {
 
       <div className="container relative z-10 mx-auto flex flex-col items-center justify-center px-4">
         {/* Giant 404 Text with Lime-to-Green Gradient */}
-        <h1 className="select-none font-black leading-none tracking-tight text-transparent bg-clip-text bg-gradient-to-b from-[#d9f99d] via-[#a3e635] to-[#84cc16] text-[28vw] sm:text-[22vw] md:text-[18vw] lg:text-[16rem] xl:text-[20rem]">
+        <h1 className="select-none font-black leading-none tracking-tight text-transparent bg-clip-text bg-gradient-to-b from-[#D4FB20] via-[#d3fb20cb] to-[#d3fb2027] text-[28vw] sm:text-[22vw] md:text-[18vw] lg:text-[16rem] xl:text-[20rem]">
           404
         </h1>
 
         {/* Main Error Message Heading */}
-        <h2 className="-mt-6 max-w-4xl text-2xl font-bold tracking-tight text-white sm:-mt-10 sm:text-4xl md:-mt-16 md:text-5xl lg:text-6xl xl:text-7xl">
+        <h2 className="-mt-12 max-w-4xl text-2xl font-medium tracking-tight text-white sm:-mt-10 sm:text-4xl md:-mt-16 md:text-5xl lg:text-6xl xl:text-7xl">
           The page you are looking <br className="hidden sm:inline" />
-          for doesn’t exist
+          for doesn't exist
         </h2>
 
         {/* Subtitle / Helper Text */}
