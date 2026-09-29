@@ -1,5 +1,7 @@
 import { CourseSection } from "@/components/course/CourseSection";
 import { BrandMarquee } from "@/components/landingPage/BrandMarquee";
+import { CreateManageSection } from "@/components/landingPage/CreateManageSection";
+import { GrowthSection } from "@/components/landingPage/GrowthSection";
 import { HeroSection } from "@/components/landingPage/HeroSection";
 import { LearningPaths } from "@/components/landingPage/LearningPaths";
 import {
@@ -19,6 +21,8 @@ export default function Home() {
         initialVisibleCategories={INITIAL_VISIBLE_CATEGORIES}
       />
       <LearningPaths />
+      <GrowthSection />
+      <CreateManageSection />
     </div>
   );
 }

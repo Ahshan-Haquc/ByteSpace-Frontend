@@ -30,7 +30,7 @@ export function CreateManageSection({
   brandName = "ByteSpace",
   description = "supports individuals or entities in the creation, publication, and administration of educational courses.",
   features = defaultFeatures,
-  imageSrc = "/images/create-manage.png",
+  imageSrc = "/landingPage/manage.png",
   imageAlt = "Course creator with revenue stats and happy students overview",
   className,
 }: CreateManageSectionProps) {

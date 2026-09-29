@@ -35,7 +35,7 @@ export function GrowthSection({
   ),
   description = "Explore our curated selection of courses tailored to enhance your capabilities and accelerate your career journey. Whether you are looking to sharpen specific skills, gain industry expertise, or embark on a new career path entirely, we have the resources you need.",
   stats = defaultStats,
-  imageSrc = "/images/path-to-growth.png",
+  imageSrc = "/landingPage/growth.png",
   imageAlt = "Student learning online with a laptop and course progress cards",
   className,
 }: GrowthSectionProps) {
@@ -91,7 +91,7 @@ export function GrowthSection({
             width={900}
             height={900}
             sizes="(min-width: 1024px) 50vw, 100vw"
-            className="h-auto w-full object-contain"
+            className="h-auto w-full object-contain object-bottom pt-25 scale-105"
           />
         </div>
       </div>
