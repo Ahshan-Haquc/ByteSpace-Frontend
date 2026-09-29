@@ -1,6 +1,7 @@
 import { CourseSection } from "@/components/course/CourseSection";
 import { BrandMarquee } from "@/components/landingPage/BrandMarquee";
 import { CreateManageSection } from "@/components/landingPage/CreateManageSection";
+import { CtaSection } from "@/components/landingPage/CTA";
 import { GrowthSection } from "@/components/landingPage/GrowthSection";
 import { HeroSection } from "@/components/landingPage/HeroSection";
 import { LearningPaths } from "@/components/landingPage/LearningPaths";
@@ -24,7 +25,7 @@ export default function Home() {
       <LearningPaths />
       <GrowthSection />
       <CreateManageSection />
-
+      <CtaSection/>
       <Testimonials/>
     </div>
   );
