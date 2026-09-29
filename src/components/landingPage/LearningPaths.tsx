@@ -11,10 +11,15 @@ export function LearningPaths() {
         
         {/* HEADER SECTION */}
         <div className="mx-auto max-w-3xl text-center">
-          <h2 className="text-3xl font-bold tracking-tight text-zinc-900 sm:text-4xl lg:text-5xl">
+          <h2 className="text-3xl font-bold tracking-tight text-zinc-900 sm:text-4xl lg:text-5xl"
+          data-aos="fade-up"
+          >
             Explore Diverse Learning Paths at Bytespace
           </h2>
-          <p className="mt-4 text-sm font-normal leading-relaxed text-zinc-500 sm:text-base md:text-lg">
+          <p className="mt-4 text-sm font-normal leading-relaxed text-zinc-500 sm:text-base md:text-lg"
+          data-aos="fade-up"
+        data-aos-delay="100"
+          >
             At Bytespace, we believe in empowering individuals through knowledge. Our
             diverse range of courses spans various fields, ensuring there&apos;s something
             for everyone. Unleash your potential and explore our carefully curated
@@ -23,7 +28,10 @@ export function LearningPaths() {
         </div>
 
         {/* CATEGORY CARDS GRID */}
-        <div className="mt-12 grid grid-cols-2 gap-4 lg:grid-cols-3 sm:gap-6 2xl:grid-cols-6 lg:gap-6">
+        <div className="mt-12 grid grid-cols-2 gap-4 lg:grid-cols-3 sm:gap-6 2xl:grid-cols-6 lg:gap-6"
+        data-aos="fade-up"
+        data-aos-delay="200"
+        >
           {learningPaths.map((path) => {
             const Icon = path.icon;
             return (
