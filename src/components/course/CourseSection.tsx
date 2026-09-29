@@ -47,10 +47,10 @@ export function CourseSection({
     <section className="mx-auto w-full max-w-[1200px] px-4 py-12 sm:px-6 md:py-16">
       {/* Heading */}
       <div className="mx-auto max-w-3xl text-center">
-        <h2 className="text-3xl font-bold leading-tight tracking-tight text-gray-950 sm:text-4xl md:text-5xl">
+        <h2 className="text-3xl font-bold leading-tight tracking-tight text-gray-950 sm:text-4xl md:text-5xl"  data-aos="fade-up">
           {title}
         </h2>
-        <p className="mt-5 text-sm leading-relaxed text-gray-400 sm:text-base md:text-lg">
+        <p className="mt-5 text-sm leading-relaxed text-gray-400 sm:text-base md:text-lg"  data-aos="fade-up" data-aos-delay="100">
           {description}
         </p>
       </div>
@@ -60,6 +60,8 @@ export function CourseSection({
         role="tablist"
         aria-label="Course categories"
         className="mx-auto mt-8 flex flex-wrap items-center justify-center gap-2 sm:gap-3 md:mt-10"
+        data-aos="fade-up"
+        data-aos-delay="200"
       >
         {visibleCategories.map((category) => {
           const isActive = category === activeCategory;
@@ -95,7 +97,10 @@ export function CourseSection({
 
       {/* Cards */}
       {filteredCourses.length > 0 ? (
-        <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:mt-14 lg:grid-cols-3 lg:gap-10">
+        <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:mt-14 lg:grid-cols-3 lg:gap-10"
+        data-aos="fade-up"
+        data-aos-delay="300"
+        >
           {filteredCourses.map((course, index) => (
             <CourseCard key={course.id} course={course} priority={index < 3} />
           ))}
