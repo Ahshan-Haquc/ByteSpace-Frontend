@@ -114,7 +114,7 @@ export function CtaSection({
           height={shape.height}
           sizes="(min-width: 1024px) 16vw, 128px"
           className={cn(
-            "pointer-events-none absolute -z-10 h-auto select-none",
+            "pointer-events-none absolute -z-10 h-auto select-none animate-up-down",
             shape.className,
           )}
         />

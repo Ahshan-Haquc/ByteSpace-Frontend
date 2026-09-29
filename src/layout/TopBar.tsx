@@ -62,7 +62,7 @@ export function TopBar() {
         {/* DESKTOP RIGHT ACTIONS */}
         <div className="hidden items-center space-x-6 md:flex">
           <Link
-            href="/signin"
+            href="/login"
             className="text-sm md:text-base 2xl:text-lg font-medium text-zinc-300 transition-colors hover:text-white"
           >
             Sign In
