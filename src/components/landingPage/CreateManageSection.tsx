@@ -37,13 +37,13 @@ export function CreateManageSection({
   return (
     <section
       className={cn(
-        "mx-auto w-full max-w-[1200px] px-4 py-12 sm:px-6 md:py-20",
+        "mx-auto w-full max-w-[1200px] px-4 py-12 sm:px-6 md:py-20 overflow-hidden",
         className,
       )}
     >
       <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
         {/* Left: image (below text on mobile) */}
-        <div className="relative order-2 mx-auto w-full max-w-[560px] lg:order-1 lg:max-w-none">
+        <div className="relative order-2 mx-auto w-full max-w-[560px] lg:order-1 lg:max-w-none" data-aos="fade-right">
           <Image
             src={imageSrc}
             alt={imageAlt}
@@ -55,7 +55,7 @@ export function CreateManageSection({
         </div>
 
         {/* Right: content */}
-        <div className="order-1 text-center lg:order-2 lg:text-left">
+        <div className="order-1 text-center lg:order-2 lg:text-left" data-aos="fade-left">
           <h2 className="text-3xl font-semibold leading-tight tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
             {title}
           </h2>
