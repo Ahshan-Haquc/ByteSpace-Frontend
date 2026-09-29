@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 
-import { CourseCard } from "@/components/course/course-card";
+import { CourseCard } from "@/components/course/CourseCard";
 import { cn } from "@/lib/utils";
 import type { Course } from "@/types/course";
 

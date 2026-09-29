@@ -1,6 +1,7 @@
-import { CourseSection } from "@/components/course/course-section";
+import { CourseSection } from "@/components/course/CourseSection";
 import { BrandMarquee } from "@/components/landingPage/BrandMarquee";
 import { HeroSection } from "@/components/landingPage/HeroSection";
+import { LearningPaths } from "@/components/landingPage/LearningPaths";
 import {
   courseCategories,
   courses,
@@ -17,6 +18,7 @@ export default function Home() {
         courses={courses}
         initialVisibleCategories={INITIAL_VISIBLE_CATEGORIES}
       />
+      <LearningPaths />
     </div>
   );
 }
