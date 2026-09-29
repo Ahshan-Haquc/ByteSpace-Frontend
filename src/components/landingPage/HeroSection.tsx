@@ -86,14 +86,14 @@ export function HeroSection() {
 
                 {/* Central Human Image */}
                 <div className="relative h-full">
-                    <div className="absolute left-[-5%] top-[15%] z-30 hidden flex-col rounded-2xl bg-white px-5 py-4 shadow-2xl lg:flex">
+                    <div className="animate-up-down absolute left-[-5%] top-[15%] z-30 hidden flex-col rounded-2xl bg-white px-5 py-4 shadow-2xl lg:flex">
                         <h3 className="text-sm font-bold text-black">UI/UX Design</h3>
                         <p className="mt-1 text-xs font-medium text-zinc-500">
                             200 Courses &bull; 1000+ Students
                         </p>
                     </div>
 
-                    <div className="absolute right-[0%] top-[20%] z-30 hidden flex-col rounded-2xl bg-white p-5 shadow-2xl lg:flex">
+                    <div className="animate-up-down absolute right-[0%] top-[20%] z-30 hidden flex-col rounded-2xl bg-white p-5 shadow-2xl lg:flex">
                         <h3 className="text-xs font-bold text-black">Learning Progress</h3>
                         <p className="mt-1 text-3xl font-black text-black">55%</p>
                         <div className="mt-3 h-2 w-32 rounded-full bg-zinc-100">
@@ -101,7 +101,7 @@ export function HeroSection() {
                         </div>
                     </div>
 
-                    <div className="absolute bottom-[10%] left-[-18%] z-30 hidden flex-col rounded-2xl bg-white p-4 shadow-2xl lg:flex">
+                    <div className="animate-up-down absolute bottom-[10%] left-[-18%] z-30 hidden flex-col rounded-2xl bg-white p-4 shadow-2xl lg:flex">
                         <h3 className="text-xs font-bold text-black">Happy Students</h3>
                         <div className="mt-1 flex items-center gap-1 text-sm font-black text-black">
                             4.5 <span className="text-xs font-medium text-zinc-500">(240)</span>
