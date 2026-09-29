@@ -19,7 +19,7 @@ export default function RegisterPage() {
     >
       <div className="mx-auto grid max-w-[1400px] gap-10 lg:grid-cols-[1.05fr_1fr] lg:items-center lg:gap-16">
         {/* LEFT SIDE */}
-        <section className="flex flex-col gap-6 text-white lg:min-h-[calc(100vh-7rem)] lg:justify-center">
+        <section className="flex flex-col gap-6 text-white lg:min-h-[calc(100vh-7rem)] lg:justify-center" data-aos="fade-right">
           <div className="space-y-8 lg:space-y-10">
             {/* TOP BAR IMAGE (logo) -> replace src */}
             <Link href="/" aria-label="ByteSpace home" className="inline-block">
@@ -59,7 +59,7 @@ export default function RegisterPage() {
         </section>
 
         {/* RIGHT SIDE */}
-        <section className="rounded-[2rem] bg-white p-6 shadow-xl sm:p-10 lg:rounded-[2.5rem] lg:p-14">
+        <section className="rounded-[2rem] bg-white p-6 shadow-xl sm:p-10 lg:rounded-[2.5rem] lg:p-14" data-aos="fade-left">
           <RegisterForm />
         </section>
       </div>
