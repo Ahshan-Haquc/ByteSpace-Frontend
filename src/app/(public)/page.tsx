@@ -4,6 +4,7 @@ import { CreateManageSection } from "@/components/landingPage/CreateManageSectio
 import { GrowthSection } from "@/components/landingPage/GrowthSection";
 import { HeroSection } from "@/components/landingPage/HeroSection";
 import { LearningPaths } from "@/components/landingPage/LearningPaths";
+import { Testimonials } from "@/components/landingPage/Testimonials";
 import {
   courseCategories,
   courses,
@@ -23,6 +24,8 @@ export default function Home() {
       <LearningPaths />
       <GrowthSection />
       <CreateManageSection />
+
+      <Testimonials/>
     </div>
   );
 }
