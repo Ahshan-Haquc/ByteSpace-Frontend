@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toast"
 import { Poppins } from "next/font/google";
+import AOSProvider from "@/components/AOSProvider";
 
 export const metadata: Metadata = {
   title: "ByteSpace",
@@ -26,6 +27,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${poppins.className} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <AOSProvider />
         {children}
         <Toaster />
       </body>
